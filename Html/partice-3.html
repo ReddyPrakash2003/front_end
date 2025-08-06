@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>partice-5</title>
+    <style>
+        nav a {
+            text-decoration: none;
+            margin-left: 98px;
+            padding: 10px;
+
+        }
+        header
+        {
+            background-color:aqua;
+            padding: 5px;
+        }
+        #second
+        {
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .con
+        {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            display: inline-block;
+            margin: 5px;
+        }
+        #container
+        {
+            border-color: black;
+            border-style:solid;
+            padding: 10px;
+        }
+        #box4
+        {
+         position: fixed;
+         right: 10px;
+        }
+        #div2
+        {
+            position: absolute;
+            /* top:1px; */
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="#">Home</a>
+           <a href="#">Carrers</a>
+           <a href="#">Hackthons</a>
+           <a href="#">About Us</a>
+           
+        </nav>
+    </header>
+    <main>
+        <div id="second"></div>
+         <div id="container">
+               <div class="con" >box-1</div>
+               <div class="con" id="div2">box-2</div>
+               <div class="con" id="div1">box-3</div>
+         </div>
+    <div id="box4" class="con">box4</div>
+    </main>
+   
+    <!-- <footer> <label for="com">Add your Thoughts</label> <br><textarea name="comment" id="com"></textarea></footer> -->
+</body>
+</html>
