@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudeo classed</title>
+    <style>
+        .box1
+        {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin : 10px;
+
+            border: 2px solid black;
+            border-radius: 3px;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+            position: relative;
+            top:100px;
+            left:100px;
+
+        }
+        .box1:hover{
+                            transform:skewy(45deg);
+        }
+        /* #box2
+        {
+            height: 50px;
+            width: 50px;
+            background-color: blueviolet;
+            margin : 10px;
+            transform: scale()
+        }
+        #box3
+        {
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            margin : 10px;
+        }
+        #box4
+        {
+            height: 50px;
+            width: 50px;
+            background-color: pink;
+            margin : 10px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box1">Box1</div>
+    <!-- <div id="box2">Box2</div>
+    <div id="box3">Box3</div>
+    <div id="box4">Box4</div> -->
+</body>
+</html>

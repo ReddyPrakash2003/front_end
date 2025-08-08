@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progeress bar</title>
+    <style>
+        #progess-contanier
+        {
+            height: 25px;
+            width: 90%;
+            background-color: rgb(224, 227, 229);
+            border-color: black;
+            border-radius: 15px;
+            border-style: solid;
+            position: relative;
+            left: 55px;
+            top: 50px
+        }
+        #progess-loader
+        {
+            height: 25px;
+            width: 0%;
+            background-color: rgb(205, 157, 190);
+            animation-name: loader;
+            animation-duration: 5s;
+            animation-delay: 0s;
+            animation-iteration-count: 5;
+            border-radius:15px ;
+        }
+        @keyframes loader {
+            /* from{
+             width:0%;
+            }
+            to{
+            width:100%;
+            } */
+             0%
+             {
+             width:0%;
+             }
+             50%
+             {
+             width:80%;
+             }
+             90%
+             {
+              width:50% ;
+              animation-delay: 1s;
+             }
+             100%
+             {
+             width:100%;
+             }
+        }
+    </style>
+</head>
+<body>
+    <div id="progess-contanier">
+        <div id="progess-loader">
+
+        </div>
+    </div>
+</body>
+</html>

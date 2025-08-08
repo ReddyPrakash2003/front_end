@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudeo classed</title>
+    <style>
+        .box1
+        {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            margin : 10px;
+            border: 2px solid black;
+            border-radius: 3px;
+            position: relative;
+            top:20px;
+            left:30px;
+            animation-name: gum;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-iteration-count: 10;
+            animation-direction: reverse;
+
+        }
+        @keyframes gum {
+            0% {left:10px;}
+            50% {left:100px;}
+            100% {left:200px;}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Box1</div>
+</body>
+</html>
